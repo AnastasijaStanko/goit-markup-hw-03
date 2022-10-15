@@ -275,6 +275,10 @@ ol {
     margin-bottom: 50px;
 }
 
+.work-link {
+    display: flex;
+    gap: 30px;
+}
 .section-work {
     margin-bottom: 50px;
 }
@@ -285,7 +289,7 @@ ol {
     padding-bottom: 94px;
 }
 
-,team-container {
+.team-container {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
@@ -333,6 +337,7 @@ ol {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
+    align-items: center;
 }
 
 .logo-footer {
@@ -358,4 +363,7 @@ ol {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
+}
+.footer-list {
+    align-items: flex-start;
 }
