@@ -20,6 +20,47 @@ body {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
+
+.main-navigation {
+    margin-left: 93px;
+    margin-right: 344px;
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-list {
+    gap: 50px;
+}
+
 .header-list .nav-link.current {
     color: var(--main-btn-color);
 }
@@ -56,13 +97,22 @@ body {
         
         color: var(--secondary-title-color);
         }
-        .nav-link {
-        font-weight: 500;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.02em;
-
-        color: var(--main-title-color);
+        
+        .nav-link,
+        .link-logo-tel {
+            font-weight: 500;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--main-title-color);
         }
+
+        .header-nav {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
 
         .link-mail, .link-logo-tel {
             font-weight: 500;

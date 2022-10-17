@@ -246,6 +246,12 @@ ol {
     margin-bottom: 10px;
 }
 
+.section-main {
+    display: flex;
+    margin: 94px;
+    gap: 30px;
+}
+
 .link-header {
     display: flex;
     gap: 30px;
@@ -255,10 +261,6 @@ ol {
     width: 270px;
 }
 
-.section-item {
-    width: 270px;
-    background-color: tomato;
-}
 
 .section-text {
     line-height: 1.71;
@@ -290,13 +292,12 @@ ol {
 }
 
 .team-container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    width: 1200px;
+ 
 }
 .team-list {
+
     display: flex;
     gap: 30px;
 }
@@ -333,11 +334,11 @@ ol {
 
 .footer {
     width: 1600px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
-    align-items: center;
 }
 
 .logo-footer {
