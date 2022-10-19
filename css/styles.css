@@ -36,17 +36,28 @@ ol {
     padding-left: 0;
 }
 
-.container {
-    width: 1200px;
+.header {
+    display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container {
+    width: 1200px;
+    display: flex;
     margin: 0 auto;
     outline: 2px solid tomato;
 }
 
-.section {
-    padding: 94px;
+.hero {
+    display: block;
+    padding: 94px 0px;
+    width: 1600px;
+    margin: auto;
+    background-color: #2F303A;
 }
+
 
 .img {
     display: block;
@@ -56,6 +67,7 @@ ol {
 
 .button {
     cursor: pointer;
+    border: none;
 }
 
 .address {
@@ -91,7 +103,10 @@ ol {
 }
 
 .header-list {
+    display: flex;
+    align-items: center;
     gap: 50px;
+    padding-left: 93px;
 }
 
 .logo-link {
@@ -204,6 +219,7 @@ ol {
 }
 
 .hero-title {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -212,6 +228,9 @@ ol {
     text-transform: uppercase;
     color: var(--secondary-title-color);
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 .button {
