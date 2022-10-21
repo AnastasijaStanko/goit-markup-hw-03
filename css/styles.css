@@ -38,9 +38,10 @@ ol {
 
 .header {
     display: flex;
+    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 25px;
+    padding-top: 24px;
     padding-bottom: 25px;
 }
 .container {
@@ -49,12 +50,17 @@ ol {
     margin: 0 auto;
     outline: 2px solid tomato;
 }
+.section {
+    display: flex;
+    min-width: 1170px;
+}
 
 .hero {
     display: block;
     padding: 94px 0px;
-    width: 1600px;
     margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;
 }
 
@@ -75,14 +81,11 @@ ol {
 }
 
 .header-navigation {
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;
 }
 
 .main-navigation {
     margin-left: 93px;
-    margin-right: 344px;
     display: flex;
     align-items: center;
 }
@@ -98,7 +101,6 @@ ol {
 .header-nav {
     margin-left: auto;
     display: flex;
-    align-items: center;
     gap: 50px;
 }
 
@@ -106,7 +108,7 @@ ol {
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-left: 93px;
+    margin-left: 93px;
 }
 
 .logo-link {
@@ -251,23 +253,29 @@ ol {
     height: 50px;
 }
 
+
 .section-upper,
 .section-work {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     padding: 0;
 }
-
+.section-work {
+    margin-top: 94px;
+}
 .about-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    display: flex;
 }
-
+.section-upper {
+    display: flex;
+    padding-top: 94px;
+}
 .section-main {
     display: flex;
-    margin: 94px;
     gap: 30px;
 }
 
@@ -301,7 +309,7 @@ ol {
     gap: 30px;
 }
 .section-work {
-    margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 .section-team {
@@ -313,7 +321,10 @@ ol {
 .team-container {
     display: flex;
     width: 1200px;
- 
+}
+.team-wrap {
+    display: flex;
+    align-items: center;
 }
 .team-list {
 
@@ -352,12 +363,18 @@ ol {
 }
 
 .footer {
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: block; 
+}
+
+.footer-container {
+    display: block;
+    margin: auto;
     background-color: #2F303A;
+    height: 252px;   
 }
 
 .logo-footer {
