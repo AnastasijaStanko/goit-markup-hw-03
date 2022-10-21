@@ -36,6 +36,14 @@ ol {
     padding-left: 0;
 }
 
+
+.container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+   
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -43,13 +51,9 @@ ol {
     padding-right: 15px;
     padding-top: 24px;
     padding-bottom: 25px;
+    border: var(--main-btn-color);
 }
-.container {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    outline: 2px solid tomato;
-}
+
 .section {
     display: flex;
     min-width: 1170px;
@@ -293,7 +297,7 @@ ol {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--about-text-color);
-    margin-bottom: 10px;
+
 }
 
 .section-title {
@@ -311,7 +315,9 @@ ol {
 .section-work {
     margin-top: 94px;
 }
-
+ .item-work {
+    display: flex;
+ }
 .section-team {
     background-color: #F5F4FA;
     padding-top: 94px;

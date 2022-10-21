@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -48,6 +48,9 @@ body {
 
 .header-list {
     display: flex;
+    align-items: center;
+    gap: 50px;
+
 }
 
 .header-nav {
@@ -64,6 +67,13 @@ body {
 .header-list .nav-link.current {
     color: var(--main-btn-color);
 }
+
+.container-items {
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+}
+
 
 .logo-link {
     font-family: 'Raleway';
@@ -127,8 +137,10 @@ body {
         line-height: calc(26 / 16);
         text-align: center;
         letter-spacing: 0.03em;
-
+        border: none;
+        height: 38px;
         color: #212121;
+        background-color: #F5F4FA;
         }
 
         .button:hover, :focus {
@@ -168,6 +180,24 @@ body {
             color: var(--main-title-color);
          }
 
+         .container-title {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: teal;
+            margin-left: 30px;
+            margin-bottom: 30px;
+         }
+
+         .container-title:nth-last-child(-n+3) {
+            margin-bottom: 0;
+         }
+         .project-wrap {
+
+         }
+         .container-title:nth-child(3n) {
+            margin-right: 0;
+         }
+         
          .project-title {
             font-weight: 700;
             font-size: 18px;
