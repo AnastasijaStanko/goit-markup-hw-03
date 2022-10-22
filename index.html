@@ -14,30 +14,32 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="header container">
-        <nav class="header-navigation">  
-        <a class="logo-link link" href="/studio.html">Web<span class="logo-header">Studio</span></a>  
-        </nav>
+    <header class="header">
+        <div class="header-navigation">
+            <nav class="header-container">  
+            <a class="logo-link link" href="/studio.html">Web<span class="logo-header">Studio</span></a>  
             <ul class="header-list list">
                 <li><a class="nav-link link link-header current" href="./studio.html">Студія</a></li>
                 <li><a class="nav-link link link-header" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="nav-link link link-header" href="">Контакти</a></li>
             </ul>
-        <ul class="header-nav list">
-            <li><a class="link-mail link link-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-logo-tel link link-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+            </nav>    
+            <ul class="header-nav list">
+                <li><a class="link-mail link link-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link-logo-tel link link-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
      </header> 
     <main>
-        <section>
+        <section  class="section">
             <div class="hero">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="button" type="button">Замовити послугу</button>
             </div>
         </section>
-        <section class="container section-upper">
+        <section class="section section-upper">
             <h2 hidden>Привілегії</h2>
-            <ul class="section-main">
+            <ul class="container section-main">
                <div class="item-block">
                     <li class="section-item list style">
                         <h3 class="about-title">Увага до деталей</h3>
@@ -65,10 +67,9 @@
             </ul>
         </section>
         </div>
-        <div class="container ">
         <section class="section section-work">
-               <div class="item-work"> <h2 class="section-title">Чим ми займаємося</h2></div>
-                <ul class="link work-link">
+               <h2 class="section-title">Чим ми займаємося</h2>
+                <ul class="link container work-link">
                     <li class="list"> 
                         <img class="img" src="./images/img1.jpg" alt="computerwork1" width="370" height="294"/>
                     </li>
@@ -80,53 +81,53 @@
                     </li>
                 </ul>
         </section>
-        </div>
+     
         
-        <section class="section container section-team">
-                <div class="team-wrap">
+        <section class="section section-team">
+               
             <h2 class="section-title">Наша команда</h2>
-                </div>
-                <div class="team-container">
-                    <ul class="team-list">
-                        <li class="list">
-                            <img class="img" src="./images/teamcard11.jpg" alt="team" width="270" height="260"/>
-                            <div class="item-wrap">
-                                <h3 class="team-name">Ігор Дем'яненко</h3>
-                                <p class="about-team" lang="en">Product Designer</p>
-                            </div>
+                
+                
+                    <div class="container">
+                        <ul class="team-list">
+                            <li class="list">
+                                <img class="img" src="./images/teamcard11.jpg" alt="team" width="270" height="260"/>
+                                
+                                    <h3 class="team-name">Ігор Дем'яненко</h3>
+                                    <p class="about-team" lang="en">Product Designer</p>
+                               
+                            </li>
+                            <li class="list main-team">
+                                <img class="img" src="./images/teamcard2.jpg" alt="team" width="270" height="260"/>
+                               
+                                    <h3 class="team-name">Ольга Рєпіна</h3>
+                                    <p class="about-team" lang="en">Frontend Developer</p>
+                                
+                            </li>
+                            <li class="list">
+                                <img class="img" src="./images/teamcard3.jpg" alt="team" width="270" height="260"/>
+                               
+                                    <h3 class="team-name">Микола Тарасов</h3>
+                                    <p class="about-team" lang="en">Marketing</p>
+    
+                            </li>
+                            <li class="list">
+                                <img class="img" src="./images/teamcard4.jpg" alt="team" width="270" height="260"/>
+                                
+                                    <h3 class="team-name">Михайло Єрмаков</h3>
+                                     <p class="about-team" lang="en">UI Designer</p>
+                                
                         </li>
-                        <li class="list main-team">
-                            <img class="img" src="./images/teamcard2.jpg" alt="team" width="270" height="260"/>
-                            <div class="item-wrap">
-                                <h3 class="team-name">Ольга Рєпіна</h3>
-                                <p class="about-team" lang="en">Frontend Developer</p>
-                            </div>
-                        </li>
-                        <li class="list">
-                            <img class="img" src="./images/teamcard3.jpg" alt="team" width="270" height="260"/>
-                            <div class="item-wrap">
-                                <h3 class="team-name">Микола Тарасов</h3>
-                                <p class="about-team" lang="en">Marketing</p>
-                            </div>
-                        </li>
-                        <li class="list">
-                            <img class="img" src="./images/teamcard4.jpg" alt="team" width="270" height="260"/>
-                            <div class="item-wrap">
-                                <h3 class="team-name">Михайло Єрмаков</h3>
-                                 <p class="about-team" lang="en">UI Designer</p>
-                            </div>
-                    </li>
-                </ul>
-            </div>
+                    </ul>
+                    </div>
+            
         </section>
        
-        <footer>
-            <div class="footer-container">
-            <div class="footer container">
-                <div class="logo-footer">
-                    <a class="logo-link link" href="/index.html">Web<span class="logo-header-footer">Studio</span></a></>
-                </div>
-                        <ul class="footer-list">
+        <footer class="section">
+                <div class="footer-container">
+                    <a class="footer-nav logo-link link" href="/index.html">Web<span class="logo-header-footer">Studio</span></a>
+
+                        <ul class="footer-list footer-nav">
                             <li class="list">
                                 <a class="footer-adress link" href="https://goo.gl/maps/UXusnvnkRGUJdk639">м. Київ, пр-т Лесі Українки, 26</a></li>
                             <li class="list">

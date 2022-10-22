@@ -38,36 +38,33 @@ ol {
 
 
 .container {
-    width: 1200px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     margin: 0 auto;
    
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 24px;
     padding-bottom: 25px;
-    border: var(--main-btn-color);
+    border: #ECECEC;
+    padding-left: 215px;
 }
 
 .section {
-    display: flex;
-    min-width: 1170px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .hero {
-    display: block;
     padding: 94px 0px;
     margin: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #2F303A;
 }
-
 
 .img {
     display: block;
@@ -86,6 +83,9 @@ ol {
 
 .header-navigation {
     display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .main-navigation {
@@ -94,6 +94,9 @@ ol {
     align-items: center;
 }
 
+.header-container {
+    display: flex;
+}
 .header-list .nav-link.current {
     color: var(--main-btn-color);
 }
@@ -106,6 +109,7 @@ ol {
     margin-left: auto;
     display: flex;
     gap: 50px;
+    padding-right: 215px;
 }
 
 .header-list {
@@ -224,6 +228,9 @@ ol {
     background-color: #2F303A;
 }
 
+.item-block {
+    width: 270px;
+}
 .hero-title {
     width: 696px;
     font-weight: 900;
@@ -276,7 +283,7 @@ ol {
 }
 .section-upper {
     display: flex;
-    padding-top: 94px;
+    padding: 0;
 }
 .section-main {
     display: flex;
@@ -292,7 +299,6 @@ ol {
     width: 270px;
 }
 
-
 .section-text {
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -301,6 +307,7 @@ ol {
 }
 
 .section-title {
+ 
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -309,6 +316,10 @@ ol {
 }
 
 .work-link {
+    gap: 30px;
+}
+
+.work-list {
     display: flex;
     gap: 30px;
 }
@@ -320,8 +331,6 @@ ol {
  }
 .section-team {
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-container {
@@ -329,11 +338,9 @@ ol {
     width: 1200px;
 }
 .team-wrap {
-    display: flex;
     align-items: center;
 }
 .team-list {
-
     display: flex;
     gap: 30px;
 }
@@ -353,6 +360,7 @@ ol {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .about-team {
@@ -377,14 +385,15 @@ ol {
 }
 
 .footer-container {
-    display: block;
+
     margin: auto;
     background-color: #2F303A;
-    height: 252px;   
+    height: 252px;  
+    margin-bottom: 20px; 
+   
 }
-
-.logo-footer {
-    margin-bottom: 20px;
+.footer-nav {
+    margin-left: 215px;
 }
 
 .footer-adress {

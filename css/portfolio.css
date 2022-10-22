@@ -167,7 +167,9 @@ body {
         .footer {
             background-color: var(--main-title-color);
         }
-
+        .logo-footer {
+            margin-bottom: 20px;
+        }
         .main-section {
             background-color: #F5F5F5;
         }
