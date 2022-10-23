@@ -20,6 +20,23 @@ body {
     text-decoration: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+
 .container {
     width: 1230px;
     padding-left: 15px;
@@ -72,7 +89,9 @@ body {
     justify-content:center;
     gap: 8px;
 }
-
+.logo {
+    margin-right: 93px;
+}
 
 .logo-link {
     font-family: 'Raleway';
@@ -188,6 +207,9 @@ body {
             margin-bottom: 30px;
             gap: 30px;
             background-color: teal;
+         }
+         .project-wrap:nth-child(3) {
+            gap: 0;
          }
         
          .project-title {
