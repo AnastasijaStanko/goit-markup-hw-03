@@ -343,6 +343,7 @@ ol {
 .team-list {
     display: flex;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .team-list {
