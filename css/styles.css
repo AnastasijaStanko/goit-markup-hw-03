@@ -262,10 +262,11 @@ ol {
     border-radius: 4px;
     min-width: 216px;
     height: 50px;
+    margin-top: 30px;
 }
 
 
-.section-upper,
+.section-about,
 .section-work {
     background-color: #FFFFFF;
     padding: 0;
@@ -289,7 +290,10 @@ ol {
     display: flex;
     gap: 30px;
 }
-
+.section-about {
+    padding-bottom: 0;
+    margin-top: 94px;
+}
 .link-header {
     display: flex;
     gap: 30px;
@@ -385,16 +389,20 @@ ol {
 }
 
 .footer-container {
-
-    margin: auto;
     background-color: #2F303A;
     height: 252px;  
-    margin-bottom: 20px; 
-   
+
+
 }
-.footer-nav {
-    margin-left: 215px;
+.container-wrap {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
+
 
 .footer-adress {
     line-height: 1.71;
@@ -415,7 +423,4 @@ ol {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
-}
-.footer-list {
-    align-items: flex-start;
 }
