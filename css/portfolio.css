@@ -42,7 +42,6 @@ ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
 }
 
 .section {
@@ -161,8 +160,7 @@ ol {
             line-height: 26px;
             text-align: center;
             letter-spacing: 0.03em;
-
-color: #212121;
+            color: #212121;
         }
         .button {
         font-weight: 500;
@@ -174,6 +172,7 @@ color: #212121;
         height: 38px;
         color: #212121;
         background-color: #F5F4FA;
+        border-radius: 4px;
         }
 
         .button:hover, :focus {
