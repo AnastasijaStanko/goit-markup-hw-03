@@ -38,19 +38,17 @@ ol {
 
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     margin: 0 auto;
-   
 }
 
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: #ECECEC;
-    padding-left: 215px;
+    border: 1px solid #ECECEC;
 }
 
 .section {
@@ -109,7 +107,6 @@ ol {
     margin-left: auto;
     display: flex;
     gap: 50px;
-    padding-right: 215px;
 }
 
 .header-list {
@@ -395,7 +392,7 @@ ol {
 
 }
 .container-wrap {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
