@@ -262,8 +262,10 @@ ol {
     margin-top: 30px;
 }
 
+.section-about {
+    padding-bottom: 0;
+}
 
-.section-about,
 .section-work {
     background-color: #FFFFFF;
     padding: 0;
@@ -287,10 +289,7 @@ ol {
     display: flex;
     gap: 30px;
 }
-.section-about {
-    padding-bottom: 0;
-    margin-top: 94px;
-}
+
 .link-header {
     display: flex;
     gap: 30px;
