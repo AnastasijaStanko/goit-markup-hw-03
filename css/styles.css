@@ -43,6 +43,7 @@ ol {
     padding-right: 15px;
     display: flex;
     margin: 0 auto;
+
 }
 
 .header {
@@ -79,11 +80,10 @@ ol {
     font-style: normal;
 }
 
-.header-navigation {
+.header-container {
     display: flex;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 .main-navigation {
