@@ -261,7 +261,16 @@ ol {
     height: 50px;
     margin-top: 30px;
 }
+.container-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 
+color: #FFFFFF;
+}
 .section-about {
     padding-bottom: 0;
 }
