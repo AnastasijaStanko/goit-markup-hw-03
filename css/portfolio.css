@@ -36,9 +36,8 @@ ol {
     padding-left: 0;
 }
 
-
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -56,31 +55,22 @@ ol {
 }
 
 .header-navigation {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;
 }
-
-.header-list {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border: 1px solid #ECECEC;
 }
 
 .header-nav {
     margin-left: auto;
-    display: flex;
-    align-items: center;
+
     gap: 50px;
 }
 
 .header-list {
+    display: flex;
     gap: 50px;
 }
 
@@ -170,6 +160,7 @@ ol {
         letter-spacing: 0.03em;
         border: none;
         height: 38px;
+        min-width: 86px;
         color: #212121;
         background-color: #F5F4FA;
         border-radius: 4px;
@@ -236,16 +227,9 @@ ol {
          }
          .footer-container {
             background-color: #2F303A;
-            height: 252px;  
-        }
-        .container-wrap {
-            width: 1230px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin: 0 auto;
-            padding-bottom: 60px;
             padding-top: 60px;
-        }
+            padding-bottom: 60px; 
+         }
         
          .project-text {
             font-size: 16px;
@@ -254,14 +238,21 @@ ol {
             color: var(--about-text-color);
             margin-top: 4px;
          }
-
+         .logo-footer {
+            display: block;
+            margin-bottom: 20px;
+         }
          .footer-adress {
             line-height: 24px;
             letter-spacing: 0.03em;
-
             color: #FFFFFF
          }
 
+         .footer-list {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
          .footer-mail, .footer-tel {
             line-height: 24px;
             letter-spacing: 0.03em;

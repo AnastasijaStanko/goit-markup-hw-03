@@ -41,9 +41,7 @@ ol {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
     margin: 0 auto;
-
 }
 
 .header {
@@ -83,7 +81,6 @@ ol {
 .header-container {
     display: flex;
     align-items: center;
-
 }
 
 .main-navigation {
@@ -259,7 +256,6 @@ ol {
     border-radius: 4px;
     min-width: 216px;
     height: 50px;
-    margin-top: 30px;
 }
 
 .section-about {
@@ -270,9 +266,7 @@ ol {
     background-color: #FFFFFF;
     padding: 0;
 }
-.section-work {
-    margin-top: 94px;
-}
+
 .about-title {
     font-size: 14px;
     line-height: 1.14;
@@ -294,10 +288,11 @@ ol {
     display: flex;
     gap: 30px;
 }
-.section-item .style {
-    display: flex;
+.section-item {
     width: 270px;
 }
+   
+
 
 .section-text {
     line-height: 1.71;
@@ -316,7 +311,9 @@ ol {
 }
 
 .work-link {
+    display: flex;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .work-list {
@@ -343,15 +340,17 @@ ol {
 .team-list {
     display: flex;
     gap: 30px;
+}
+.team-item {
     padding-bottom: 30px;
 }
-
 .team-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 }
 
 .team-name {
@@ -387,9 +386,8 @@ ol {
 
 .footer-container {
     background-color: #2F303A;
-    height: 252px;  
-
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .container-wrap {
     width: 1200px;
@@ -399,7 +397,10 @@ ol {
     padding-bottom: 60px;
     padding-top: 60px;
 }
-
+.logo-footer {
+display: block;
+margin-bottom: 20px;
+}
 
 .footer-adress {
     line-height: 1.71;
@@ -420,4 +421,9 @@ ol {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
