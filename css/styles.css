@@ -262,10 +262,6 @@ ol {
     padding-bottom: 0;
 }
 
-.section-work {
-    background-color: #FFFFFF;
-    padding: 0;
-}
 
 .about-title {
     font-size: 14px;
@@ -273,7 +269,6 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    display: flex;
 }
 .section-upper {
     display: flex;
@@ -313,15 +308,11 @@ ol {
 .work-link {
     display: flex;
     gap: 30px;
-    padding-bottom: 30px;
 }
 
 .work-list {
     display: flex;
     gap: 30px;
-}
-.section-work {
-    margin-top: 94px;
 }
  .item-work {
     display: flex;
@@ -343,29 +334,28 @@ ol {
 }
 .team-item {
     padding-bottom: 30px;
+    background-color: var(--secondary-title-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
-.team-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding-bottom: 30px;
-}
+
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: calc(19 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;  
+    color: var(--main-title-color);
+    
     margin-bottom: 10px;
     margin-top: 30px;
 }
 
 .about-team {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: calc(19 / 16); 
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--about-text-color);

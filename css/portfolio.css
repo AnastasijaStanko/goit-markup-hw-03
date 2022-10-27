@@ -82,7 +82,7 @@ ol {
     display: flex;
     justify-content:center;
     gap: 8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .logo {
     margin-right: 93px;
@@ -150,9 +150,11 @@ ol {
             line-height: 26px;
             text-align: center;
             letter-spacing: 0.03em;
-            color: #212121;
+            color: var(--main-title-color);
         }
         .button {
+        cursor: pointer;
+        padding: 6px 22px;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(26 / 16);
@@ -161,13 +163,14 @@ ol {
         border: none;
         height: 38px;
         min-width: 86px;
-        color: #212121;
+        color: var(--main-title-color);
         background-color: #F5F4FA;
         border-radius: 4px;
         }
 
-        .button:hover, :focus {
-            background-color: var(--main-btn-color);  
+        .button:hover, .button:focus {
+            background-color: var(--main-btn-color); 
+            color: var(--secondary-title-color); 
         }
         .nav-link:hover, :focus {
             color: var(--main-btn-color);
@@ -211,8 +214,8 @@ ol {
             
             margin-bottom: 30px;
             gap: 30px;
-         
          }
+         
          .project-wrap:nth-child(3) {
             gap: 0;
          }
@@ -224,6 +227,7 @@ ol {
             letter-spacing: 0.06em;
             color: var(--main-title-color);
             margin-top: 20px;
+            margin-bottom: 4px;
          }
          .footer-container {
             background-color: #2F303A;
@@ -245,7 +249,7 @@ ol {
          .footer-adress {
             line-height: 24px;
             letter-spacing: 0.03em;
-            color: #FFFFFF
+            color: var(--secondary-title-color);
          }
 
          .footer-list {
