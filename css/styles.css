@@ -156,28 +156,38 @@ ol {
 .header-list:hover {
     color: #2196F3;
 }
+   
+
 
 .header-list:focus {
     color: #2196F3;
 }
+    
+
 
 .nav-link:hover {
     color: #2196F3;
 }
+   
+
 
 .nav-link:focus {
     color: #2196F3;
 }
+    
+
 
 .link-mail:hover {
     color: #2196F3;
 }
+  
+
 
 .link-mail:focus {
     color: #2196F3;
 }
 
-.linl-logo-tel:hover {
+.link-logo-tel:hover {
     color: #2196F3;
 }
 

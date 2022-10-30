@@ -174,27 +174,43 @@ ol {
         border-radius: 4px;
         }
 
+        .container-items .button:hover {
+            background-color: var(--main-btn-color);
+            color: var(--secondary-title-color);
+        }
+
+        .visually-hidden {
+            position:absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+
         .button:hover, .button:focus {
             background-color: var(--main-btn-color); 
             color: var(--secondary-title-color); 
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         }
-        .nav-link:hover, :focus {
+        .nav-link:hover, .nav-link:focus {
             color: var(--main-btn-color);
         }
-        .link-logo-tel:hover, :focus {
+        .link-logo-tel:hover, .link-logo-tel:focus {
             color: var(--main-btn-color)
         }
-        .link-mail:hover, :focus {
+        .link-mail:hover, .link-mail:focus {
             color: var(--main-btn-color);
         }
-        .footer-adress:hover, :focus {
+        .footer-adress:hover, .footer-adress:focus {
             color: var(--main-btn-color)
         }
-        .footer-tel:hover, :focus {
+        .footer-tel:hover, .footer-tel:focus {
             color: var(--main-btn-color)
         }
-        .footer-mail:hover, :focus {
+        .footer-mail:hover, .footer-mail:focus {
             color: var(--main-btn-color)
         }
 
