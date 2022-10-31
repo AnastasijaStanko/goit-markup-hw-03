@@ -174,8 +174,15 @@ ol {
         border-radius: 4px;
         }
 
+        .section-wrap {
+            display: flex;
+            margin: auto;
+        }
         .container-items .button:hover {
             background-color: var(--main-btn-color);
+        }
+
+        .btn-items .btn:hover {
             color: var(--secondary-title-color);
         }
 
