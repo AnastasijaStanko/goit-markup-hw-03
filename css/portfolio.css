@@ -177,7 +177,7 @@ ol {
             justify-content: space-between;
             margin-top: 50px;
         }
-        .btn-items:hover {
+        .btn-items:hover, .btn-items:focus {
             color: var(--secondary-title-color);
         }
        
