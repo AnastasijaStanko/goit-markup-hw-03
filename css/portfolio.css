@@ -48,15 +48,11 @@ ol {
     padding-bottom: 94px;
 }
 
-.main-navigation {
-    margin-left: 93px;
-    display: flex;
-    align-items: center;
-}
 
 .header-navigation {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 .header {
@@ -88,8 +84,6 @@ ol {
     gap: 8px;
     margin-bottom: 50px;
 }
-
-
 
 .logo {
     margin-right: 93px;
@@ -175,22 +169,21 @@ ol {
         border-radius: 4px;
         }
 
-        .section-wrap {
+        .team-list {
             display: flex;
-            margin: auto;
-        }
-        .container-items .button:hover {
-            background-color: var(--main-btn-color);
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+
         }
 
-        .btn-items .btn:hover {
-            color: var(--secondary-title-color);
+        .button .btn-items:hover {
+            background-color: var(--main-btn-color); 
+            fill: var(--secondary-title-color); 
         }
-
-        
         .button:hover, .button:focus {
             background-color: var(--main-btn-color); 
-            color: var(--secondary-title-color); 
+            fill: var(--secondary-title-color); 
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         }
         .nav-link:hover, .nav-link:focus {
@@ -221,7 +214,7 @@ ol {
         .main-section {
             background-color: #F5F5F5;
         }
-         .selection-btn {
+        .selection-btn {
             background-color: #F5F4FA;
          }
 
@@ -230,13 +223,10 @@ ol {
          }
 
          .container-title {
-            display: flex;
-            flex-wrap: wrap;
-            
             margin-bottom: 30px;
-            gap: 30px;
          }
          
+    
          .project-list {
             padding: 20px 24px;
          }
@@ -247,6 +237,13 @@ ol {
          .item-border {
             border: 1px solid #EEEEEE;
             width: calc((100% - 60px) / 3);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            
+         }
+
+         .item-border:nth-last-child(-n+3) {
+            margin-bottom: 0px;
          }
 
          .project-item {
@@ -262,6 +259,8 @@ ol {
             letter-spacing: 0.06em;
             color: var(--main-title-color);
             margin-bottom: 4px;
+            padding-top: 20px;
+            padding-left: 24px;
          }
          .footer-container {
             background-color: #2F303A;
@@ -275,6 +274,7 @@ ol {
             letter-spacing: 0.03em;
             color: var(--about-text-color);
             margin-top: 4px;
+            padding-left: 24px;
          }
          .logo-footer {
             display: block;
