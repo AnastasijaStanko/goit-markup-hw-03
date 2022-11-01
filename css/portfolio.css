@@ -57,6 +57,7 @@ ol {
 .header-navigation {
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 .header {
     padding-top: 24px;
